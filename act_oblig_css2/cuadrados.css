@@ -1,0 +1,18 @@
+.container{
+    background-color: red;
+    display: inline-block;
+    margin: 10px 1px 0px 10px;
+    
+    width: 200px;
+    height: 200px;  
+}
+#containerUnico{
+    background-color: black;
+}
+p{
+    text-align:left;
+    color: yellow;
+}
+#unica{
+    color: white;
+}

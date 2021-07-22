@@ -1,0 +1,37 @@
+h1{
+    background-color: antiquewhite;
+    color: coral;
+}
+
+p{
+    color: crimson;
+    text-align: center;
+    margin: 1em;
+}
+
+span{
+color: black;
+}
+
+.textoVerde {
+    color: darkgreen;
+}
+
+.fondoAzul{
+    background-color: blue;
+}
+.margin35px{
+    margin: 35px;
+}
+.caja{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#dos{
+    position: fixed;
+    top: 10px;
+    background-color:blue;
+
+}

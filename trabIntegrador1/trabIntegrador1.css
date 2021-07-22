@@ -1,0 +1,160 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+.headerPrimero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1em;
+    background-size:cover;
+    background-position: center;
+    height: 28em; 
+    background-image: url(images/header.jpg);
+}
+
+#navegacion{  
+    display: inline-flex;
+    padding-right:1em;
+}
+#principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8em 2em 0 2em;
+}
+.parrafoPrincipal{
+    position: relative;
+    color: white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    padding-right:1em;
+}
+.listaPrincipal{
+    display: inline-flex;
+    position: relative;
+    padding-right:1em; 
+    /*margin: 0.2em;*/
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: white;
+    padding: 0.5em;
+}
+.segunda{
+    display: inline-block;
+    position: relative;
+    color: white;
+    line-height: 2em;    
+    margin: 0 0 40px 30px;
+    font-size: 1.5em;
+}
+h3{
+    text-align: center;
+}
+.sectionUno{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2.5em 1.5em 2.5em;
+}
+.sectionDos{
+    display: flex;
+    flex-direction: column;   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    padding-left: 1.5em;
+}
+.ventas{
+    margin-top: 1em;
+    text-align: center;
+    font-size:x-large;
+}
+.muestraCasa{
+    border:0.5px solid rgb(163, 163, 163);
+    margin-left: 8px;
+    justify-content:space-around;
+
+}
+.descripcion{
+    text-align:left;
+}
+.precio{
+    font-weight: bold;
+text-align: left;
+color: green;
+}
+.imagenes{
+    margin-left: 40px;
+    display:flex;
+}
+button{
+    background-color:rgb(245, 140, 21);
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold; 
+    
+}
+.verMas{
+    background-color: rgb(9, 201, 35);
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 35px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-right: 94px;
+    text-align: center;
+    padding: 12px;
+}
+#navegacionFinal{
+   /* position: relative;*/
+    bottom: 1.5em;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+}
+.listaSecundaria{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    right: 2em;
+    /*top: 1em;*/
+}
+button:hover{
+    background-color: rgb(214, 124, 20);
+}
+.verMas:hover{
+    background-color: rgb(19, 172, 39);  
+}
+a:hover{
+    background-color:rgb(58, 58, 58) ;
+}
+.design{
+    display: inline-flex;
+    position: relative;
+    bottom: 2.5em;
+    left: 70em;
+    color: white;
+    flex-direction: column;
+}
+.headerUltimo{
+    background-image: url(images/encuentra.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 20em; 
+    background-size:125%;
+    margin-top: 5%;
+}
